@@ -80,6 +80,11 @@
                 "command": "edi-x12-support.convert-separators",
                 "title": "Convert Separators (Normalize/change EDI separators)",
                 "category": "EDI Support"
+            },
+            {
+                "command": "edi-x12-support.view-as-html",
+                "title": "View EDI as HTML",
+                "category": "EDI Support"
             }
         ],
         "menus": {
@@ -178,7 +183,7 @@
         "mocha": "^6.1.4",
         "testdouble": "^3.11.0",
         "tslint": "^5.17.0",
-        "typescript": "^2.7.2",
+        "typescript": "^4.8.4",
         "vsce": "^1.62.0"
     },
     "dependencies": {
